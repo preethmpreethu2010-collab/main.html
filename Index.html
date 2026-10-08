@@ -1,1 +1,311 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PREETHAM — Curious Builder</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #080b16, #111a35, #090d18);
+            color: white;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 45px 20px;
+            border-radius: 25px;
+            background: linear-gradient(145deg, #151d3b, #0d1228);
+            border: 1px solid #34406d;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .crown {
+            font-size: 55px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-top: 10px;
+            letter-spacing: 3px;
+        }
+
+        .subtitle {
+            color: #ffd54a;
+            font-size: 21px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .tagline {
+            margin-top: 18px;
+            color: #c9d2f5;
+            font-size: 17px;
+        }
+
+        .section {
+            margin-top: 25px;
+            padding: 28px;
+            border-radius: 20px;
+            background: rgba(20, 28, 55, 0.9);
+            border: 1px solid #2d3964;
+        }
+
+        h2 {
+            color: #ffd54a;
+            margin-bottom: 15px;
+            font-size: 25px;
+        }
+
+        .description {
+            color: #dce3ff;
+            font-size: 16px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            padding: 18px;
+            border-radius: 15px;
+            background: #111936;
+            border: 1px solid #303d6d;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            border-color: #ffd54a;
+            box-shadow: 0 5px 20px rgba(255, 213, 74, 0.15);
+        }
+
+        .skill-title {
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+
+        .skill-text {
+            color: #b9c3e5;
+            font-size: 14px;
+        }
+
+        .quote {
+            text-align: center;
+            padding: 35px 20px;
+            font-size: 23px;
+            font-weight: bold;
+            color: #ffffff;
+            font-style: italic;
+        }
+
+        .quote::before {
+            content: "“";
+            color: #ffd54a;
+            font-size: 45px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            padding: 20px;
+            color: #9ca8ce;
+            font-size: 14px;
+        }
+
+        .highlight {
+            color: #ffd54a;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .quote {
+                font-size: 19px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="crown">👑</div>
+
+            <h1>PREETHAM</h1>
+
+            <div class="subtitle">
+                The Curious Builder ⚡
+            </div>
+
+            <p class="tagline">
+                Curious Mind • Builder's Spirit • Future-Focused 🚀
+            </p>
+        </div>
+
+
+        <!-- CHARACTER DESCRIPTION -->
+        <div class="section">
+            <h2>🧑‍💻 Character Description</h2>
+
+            <p class="description">
+                <span class="highlight">Preetham</span> is a curious,
+                ambitious, and practical-minded student who loves learning
+                by experimenting.
+            </p>
+
+            <br>
+
+            <p class="description">
+                He is interested in technology, coding, science, gaming,
+                fitness, and future career opportunities.
+            </p>
+
+            <br>
+
+            <p class="description">
+                He doesn't just want to know what something is —
+                he often wants to know
+                <span class="highlight">"How does it work?"</span>
+                and
+                <span class="highlight">"Can I build it myself?"</span>
+            </p>
+
+            <br>
+
+            <p class="description">
+                Whether it's Python, HTML, Arduino projects, web development,
+                or AI ideas, he enjoys trying things hands-on.
+            </p>
+        </div>
+
+
+        <!-- PERSONALITY -->
+        <div class="section">
+            <h2>🔥 Personality</h2>
+
+            <div class="skills">
+
+                <div class="skill">
+                    <div class="skill-title">🧠 Curious Mind</div>
+                    <div class="skill-text">
+                        Always exploring new topics and ideas.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">💻 Tech Enthusiast</div>
+                    <div class="skill-text">
+                        Interested in coding, apps, websites, AI and electronics.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">🎯 Goal-Oriented</div>
+                    <div class="skill-text">
+                        Thinks about studies and future career opportunities.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">🛠️ Hands-On Learner</div>
+                    <div class="skill-text">
+                        Prefers practical examples and step-by-step guidance.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">🎮 Gaming Lover</div>
+                    <div class="skill-text">
+                        Especially interested in Free Fire MAX.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">🚀 Ambitious</div>
+                    <div class="skill-text">
+                        Wants to improve, learn and develop useful skills.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">🔍 Experimenter</div>
+                    <div class="skill-text">
+                        Likes testing whether ideas are actually possible.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">⚡ Straightforward</div>
+                    <div class="skill-text">
+                        Prefers clear and direct answers.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-title">📚 Student Mindset</div>
+                    <div class="skill-text">
+                        Frequently works on science, mathematics and exam preparation.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- QUOTE -->
+        <div class="section">
+            <h2>🦁 Character Quote</h2>
+
+            <div class="quote">
+                I don't just want to learn it —
+                I want to understand it, try it, and build it.
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <span class="highlight">PREETHAM</span>
+            —
+            Curious Mind • Builder's Spirit • Future-Focused 🚀
+        </div>
+
+    </div>
+
+</body>
+</html>
